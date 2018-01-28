@@ -3,6 +3,7 @@ services:
   node:
     image: node:9.4.0
     user: node
+    env_file: app.env
     volumes:
       - .:/app
     working_dir: /app
