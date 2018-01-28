@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './components/Layout';
 import {Router, Route, Switch} from 'react-router-dom';
 import Page from './components/Page';
+import Dashboard from './components/Dashboard';
 import createHistory from 'history/createBrowserHistory';
 
 class Application {
@@ -41,6 +42,7 @@ const ApplicationComponent = ({services}) => (
   <Router history={services.history}>
     <Layout>
       <Switch>
+        <Route path="/dashboard" component={Dashboard}/>
         <Route path="/about" render={() => <Page title="About"/>}/>
         <Route path="/contact" render={() => <Page title="Contact"/>}/>
         <Route path="/" render={() => <Page title="Welcome"/>}/>
