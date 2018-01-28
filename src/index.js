@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import './index.css';
+import './keen-dashboards.css';
 import Application from './Application';
 import registerServiceWorker from './registerServiceWorker';
 import Keen from 'keen-tracking';
