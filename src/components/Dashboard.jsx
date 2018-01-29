@@ -1,40 +1,48 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {Dataviz} from 'keen-js';
 
-const Dashboard = () => (
-  <div className="keen-dashboard" style={{paddingTop: '80px'}}>
-    <div className="container-fluid">
-      <div className="row">
+class Dashboard extends Component {
 
-        <div className="col-sm-6">
-          <div className="chart-wrapper">
-            <div className="chart-title">
-              Pageviews by browser (past 24 hours)
-            </div>
-            <div className="chart-stage">
-            </div>
-            <div className="chart-notes">
-              This is a sample text region to describe this chart.
+  componentDidMount() {
+    this.props.keenQuery();
+    this.chart = new Dataviz();
+    this.chart
+      .el('#chart-dataviz')
+      .attributes({
+        chartType: 'area',
+        stacked: true
+      })
+      .prepare();
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.data) {
+      this.chart.data(nextProps.data).render();
+    }
+  }
+
+  render() {
+    return (
+      <div className="keen-dashboard">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="chart-wrapper">
+                <div className="chart-title">
+                  Pageviews by browser (past 24 hours)
+                </div>
+                <div className="chart-stage" id="chart-dataviz">
+                </div>
+                <div className="chart-notes">
+                  This is a chart rendered with Keen Dataviz.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div className="col-sm-6">
-          <div className="chart-wrapper">
-            <div className="chart-title">
-              Pageviews by browser (past 5 days)
-            </div>
-            <div className="chart-stage">
-            </div>
-            <div className="chart-notes">
-              Notes go down here
-            </div>
-          </div>
-        </div>
-
       </div>
-
-    </div>
-  </div>
-);
+    );
+  }
+}
 
 export default Dashboard;
