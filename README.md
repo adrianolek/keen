@@ -12,7 +12,7 @@ Then create an `app.env` file:
 
     cp app.env.dist app.env
 
-and provide your _Project ID_ and _Write Key_ (you can find them on the project's _Access_ page).
+and provide your _Project ID_, _Read Key_ and _Write Key_ (you can find them on the project's _Access_ page).
 
 ## Running with Docker Compose
 
