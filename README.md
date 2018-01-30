@@ -36,3 +36,14 @@ Run the test suite in watch mode:
 or single run:
 
     docker-compose run --rm -e CI=true node yarn test
+
+To get code coverage metrics run:
+
+    docker-compose run --rm node yarn test -- --coverage
+
+A detailed HTML report will be generated in the [coverage/lcov-report](coverage/lcov-report) directory.
+
+# More information
+
+The application is built on [create-react-app](https://github.com/facebook/create-react-app).
+You can [read more](REACT.md) on what you can do with it.
