@@ -1,5 +1,5 @@
 import React from 'react';
-import {shallow} from 'enzyme';
+import {mount} from 'enzyme';
 import Dashboard from "./Dashboard";
 
 jest.mock('keen-js', () => {
@@ -19,13 +19,14 @@ describe('Dashboard', () => {
     jest.unmock('keen-js');
   });
 
-  it('queries Keen, prepares chart and renders data', () => {
+  it('queries Keen, prepares chart and renders data into DOM element', () => {
     const query = jest.fn();
 
-    const wrapper = shallow(<Dashboard keenQuery={query}/>);
+    const wrapper = mount(<Dashboard keenQuery={query}/>);
 
     expect(query.mock.calls).toHaveLength(1);
 
+    expect(wrapper.instance().chart.el.mock.calls[0][0]).toMatchSnapshot();
     expect(wrapper.instance().chart.prepare.mock.calls).toHaveLength(1);
 
     wrapper.setProps({bar: 'baz'});

@@ -1,7 +1,6 @@
 import ReactDOM from 'react-dom';
 import './keen-dashboards.css';
 import Application from './Application';
-import registerServiceWorker from './registerServiceWorker';
 import Keen from 'keen-js';
 
 const keen = new Keen({
@@ -16,4 +15,3 @@ const dependencies = {
 };
 
 ReactDOM.render(Application.getComponent(dependencies), document.getElementById('root'));
-registerServiceWorker();

@@ -7,7 +7,7 @@ class Dashboard extends Component {
     this.props.keenQuery();
     this.chart = new Dataviz();
     this.chart
-      .el('#chart-dataviz')
+      .el(this.chartElement)
       .attributes({
         chartType: 'area',
         stacked: true
@@ -31,7 +31,7 @@ class Dashboard extends Component {
                 <div className="chart-title">
                   Pageviews by browser (past 24 hours)
                 </div>
-                <div className="chart-stage" id="chart-dataviz">
+                <div className="chart-stage" ref={(element) => (this.chartElement = element)}>
                 </div>
                 <div className="chart-notes">
                   This is a chart rendered with Keen Dataviz.
