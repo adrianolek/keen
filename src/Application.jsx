@@ -9,6 +9,7 @@ import {createStore, applyMiddleware, compose} from 'redux';
 import keenReducer from './reducers/keen';
 import thunk from 'redux-thunk';
 import Explorer from "./components/Explorer";
+import Chart from "./containers/Chart";
 
 class Application {
   static createServices(dependencies) {
@@ -68,6 +69,7 @@ const ApplicationComponent = ({services, store}) => (
         <Switch>
           <Route path="/dashboard" render={() => <Dashboard/>}/>
           <Route path="/explorer" render={() => <Explorer keen={services.keen}/>}/>
+          <Route path="/chart" component={Chart}/>}/>
           <Route path="/about" render={() => <Page title="About"/>}/>
           <Route path="/contact" render={() => <Page title="Contact"/>}/>
           <Route path="/" render={() => <Page title="Welcome"/>}/>

@@ -6,6 +6,6 @@ import { shallow } from 'enzyme';
 describe('Navigation', () => {
   it('should display 3 links', () => {
     const navigation = shallow(<Navigation/>);
-    expect(navigation.find(Link)).toHaveLength(5);
+    expect(navigation.find(Link)).toHaveLength(6);
   });
 });
