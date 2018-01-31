@@ -1,7 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Page renders with title 1`] = `
-<h2>
-  Hello
-</h2>
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <h2>
+        Hello
+      </h2>
+    </div>
+  </div>
+</div>
 `;
