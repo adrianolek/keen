@@ -11,7 +11,13 @@ class Explorer extends Component {
 
   render() {
     return (
-      <div ref={(element) => (this.explorerElement = element)}>Explorer</div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-12">
+            <div ref={(element) => (this.explorerElement = element)}>Explorer</div>
+          </div>
+        </div>
+      </div>
     )
   }
 }
