@@ -1,0 +1,716 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart renders area chart 1`] = `
+<div
+  className="recharts-wrapper"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseMove={[Function]}
+  onTouchMove={[Function]}
+  style={
+    Object {
+      "cursor": "default",
+      "height": 400,
+      "position": "relative",
+      "width": 600,
+    }
+  }
+>
+  <svg
+    className="recharts-surface"
+    height={400}
+    style={undefined}
+    version="1.1"
+    viewBox="0 0 600 400"
+    width={600}
+  >
+    <g
+      className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+    >
+      <line
+        className="recharts-cartesian-axis-line"
+        fill="none"
+        height={30}
+        stroke="#666"
+        width={530}
+        x={65}
+        x1={65}
+        x2={595}
+        y={365}
+        y1={365}
+        y2={365}
+      />
+      <g
+        className="recharts-cartesian-axis-ticks"
+      >
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={530}
+            x={65}
+            x1={65}
+            x2={65}
+            y={365}
+            y1={371}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={530}
+            x={65}
+            y={373}
+          >
+            <tspan
+              dy="0.71em"
+              x={65}
+            >
+              23:06:31
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={530}
+            x={65}
+            x1={595}
+            x2={595}
+            y={365}
+            y1={371}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={530}
+            x={595}
+            y={373}
+          >
+            <tspan
+              dy="0.71em"
+              x={595}
+            >
+              00:00:00
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"
+    >
+      <line
+        className="recharts-cartesian-axis-line"
+        fill="none"
+        height={360}
+        stroke="#666"
+        width={60}
+        x={5}
+        x1={65}
+        x2={65}
+        y={5}
+        y1={5}
+        y2={365}
+      />
+      <g
+        className="recharts-cartesian-axis-ticks"
+      >
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={365}
+            y2={365}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={365}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              0
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={275}
+            y2={275}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={275}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              4
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={185}
+            y2={185}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={185}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              8
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={95}
+            y2={95}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={95}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              12
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={360}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={5}
+            y2={5}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={360}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={5}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              16
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-area"
+    >
+      <g
+        className="recharts-layer"
+      >
+        <defs>
+          <clipPath
+            id="animationClipPath-recharts-area-3"
+          >
+            <rect
+              height={366}
+              width={0}
+              x={65}
+              y={0}
+            />
+          </clipPath>
+        </defs>
+        <g
+          className="recharts-layer"
+          clipPath="url(#animationClipPath-recharts-area-3)"
+        >
+          <g
+            className="recharts-layer"
+            clipPath={null}
+          >
+            <path
+              className="recharts-curve recharts-area-area"
+              d="M65,275L595,320L595,365L65,365Z"
+              fill="#8884d8"
+              fillOpacity={0.6}
+              height={360}
+              stroke="none"
+              width={530}
+            />
+            <path
+              className="recharts-curve recharts-area-curve"
+              d="M65,275L595,320"
+              fill="none"
+              fillOpacity={0.6}
+              height={360}
+              stroke="#8884d8"
+              width={530}
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-area"
+    >
+      <g
+        className="recharts-layer"
+      >
+        <defs>
+          <clipPath
+            id="animationClipPath-recharts-area-4"
+          >
+            <rect
+              height={321}
+              width={0}
+              x={65}
+              y={0}
+            />
+          </clipPath>
+        </defs>
+        <g
+          className="recharts-layer"
+          clipPath="url(#animationClipPath-recharts-area-4)"
+        >
+          <g
+            className="recharts-layer"
+            clipPath={null}
+          >
+            <path
+              className="recharts-curve recharts-area-area"
+              d="M65,95L595,207.5L595,320L65,275Z"
+              fill="#82ca9d"
+              fillOpacity={0.6}
+              height={360}
+              stroke="none"
+              width={530}
+            />
+            <path
+              className="recharts-curve recharts-area-curve"
+              d="M65,95L595,207.5"
+              fill="none"
+              fillOpacity={0.6}
+              height={360}
+              stroke="#82ca9d"
+              width={530}
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-area"
+    >
+      <g
+        className="recharts-layer"
+      >
+        <defs>
+          <clipPath
+            id="animationClipPath-recharts-area-5"
+          >
+            <rect
+              height={208.5}
+              width={0}
+              x={65}
+              y={0}
+            />
+          </clipPath>
+        </defs>
+        <g
+          className="recharts-layer"
+          clipPath="url(#animationClipPath-recharts-area-5)"
+        >
+          <g
+            className="recharts-layer"
+            clipPath={null}
+          >
+            <path
+              className="recharts-curve recharts-area-area"
+              d="M65,72.5L595,207.5L595,207.5L65,95Z"
+              fill="#ffc658"
+              fillOpacity={0.6}
+              height={360}
+              stroke="none"
+              width={530}
+            />
+            <path
+              className="recharts-curve recharts-area-curve"
+              d="M65,72.5L595,207.5"
+              fill="none"
+              fillOpacity={0.6}
+              height={360}
+              stroke="#ffc658"
+              width={530}
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+  <div
+    className="recharts-legend-wrapper"
+    style={
+      Object {
+        "height": "auto",
+        "left": 5,
+        "position": "absolute",
+        "top": 5,
+        "width": 590,
+      }
+    }
+  >
+    <ul
+      className="recharts-default-legend"
+      style={
+        Object {
+          "margin": 0,
+          "padding": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      <li
+        className="recharts-legend-item legend-item-0"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginRight": 10,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          height={14}
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 4,
+              "verticalAlign": "middle",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 32 32"
+          width={14}
+        >
+          <path
+            className="recharts-legend-icon"
+            d="M0,16h10.666666666666666
+                      A5.333333333333333,5.333333333333333,0,1,1,21.333333333333332,16
+                      H32M21.333333333333332,16
+                      A5.333333333333333,5.333333333333333,0,1,1,10.666666666666666,16"
+            fill="none"
+            stroke="#8884d8"
+            strokeWidth={4}
+          />
+        </svg>
+        <span
+          className="recharts-legend-item-text"
+        >
+          Chromium
+        </span>
+      </li>
+      <li
+        className="recharts-legend-item legend-item-1"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginRight": 10,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          height={14}
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 4,
+              "verticalAlign": "middle",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 32 32"
+          width={14}
+        >
+          <path
+            className="recharts-legend-icon"
+            d="M0,16h10.666666666666666
+                      A5.333333333333333,5.333333333333333,0,1,1,21.333333333333332,16
+                      H32M21.333333333333332,16
+                      A5.333333333333333,5.333333333333333,0,1,1,10.666666666666666,16"
+            fill="none"
+            stroke="#82ca9d"
+            strokeWidth={4}
+          />
+        </svg>
+        <span
+          className="recharts-legend-item-text"
+        >
+          Firefox
+        </span>
+      </li>
+      <li
+        className="recharts-legend-item legend-item-2"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginRight": 10,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          height={14}
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 4,
+              "verticalAlign": "middle",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 32 32"
+          width={14}
+        >
+          <path
+            className="recharts-legend-icon"
+            d="M0,16h10.666666666666666
+                      A5.333333333333333,5.333333333333333,0,1,1,21.333333333333332,16
+                      H32M21.333333333333332,16
+                      A5.333333333333333,5.333333333333333,0,1,1,10.666666666666666,16"
+            fill="none"
+            stroke="#ffc658"
+            strokeWidth={4}
+          />
+        </svg>
+        <span
+          className="recharts-legend-item-text"
+        >
+          IE11
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="recharts-tooltip-wrapper"
+    style={
+      Object {
+        "MozTransform": "translate(undefinedpx, undefinedpx)",
+        "OTransform": "translate(undefinedpx, undefinedpx)",
+        "WebkitTransform": "translate(undefinedpx, undefinedpx)",
+        "msTransform": "translate(undefinedpx, undefinedpx)",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "top": 0,
+        "transform": "translate(undefinedpx, undefinedpx)",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="recharts-default-tooltip"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "1px solid #ccc",
+          "margin": 0,
+          "padding": 10,
+          "whiteSpace": "nowrap",
+        }
+      }
+    >
+      <p
+        className="recharts-tooltip-label"
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Chart renders empty chart when no data 1`] = `
+<div
+  className="recharts-wrapper"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseMove={[Function]}
+  onTouchMove={[Function]}
+  style={
+    Object {
+      "cursor": "default",
+      "height": 400,
+      "position": "relative",
+      "width": 600,
+    }
+  }
+>
+  <svg
+    className="recharts-surface"
+    height={400}
+    style={undefined}
+    version="1.1"
+    viewBox="0 0 600 400"
+    width={600}
+  />
+  <div
+    className="recharts-legend-wrapper"
+    style={
+      Object {
+        "height": "auto",
+        "left": 5,
+        "position": "absolute",
+        "top": 5,
+        "width": 590,
+      }
+    }
+  />
+  <div
+    className="recharts-tooltip-wrapper"
+    style={
+      Object {
+        "MozTransform": "translate(undefinedpx, undefinedpx)",
+        "OTransform": "translate(undefinedpx, undefinedpx)",
+        "WebkitTransform": "translate(undefinedpx, undefinedpx)",
+        "msTransform": "translate(undefinedpx, undefinedpx)",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "top": 0,
+        "transform": "translate(undefinedpx, undefinedpx)",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="recharts-default-tooltip"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "1px solid #ccc",
+          "margin": 0,
+          "padding": 10,
+          "whiteSpace": "nowrap",
+        }
+      }
+    >
+      <p
+        className="recharts-tooltip-label"
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        
+      </p>
+    </div>
+  </div>
+</div>
+`;

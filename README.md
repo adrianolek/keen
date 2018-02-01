@@ -39,7 +39,7 @@ or single run:
 
 To get code coverage metrics run:
 
-    docker-compose run --rm node yarn test -- --coverage
+    docker-compose run --rm node yarn test --coverage
 
 A detailed HTML report will be generated in the [coverage/lcov-report](coverage/lcov-report) directory.
 
